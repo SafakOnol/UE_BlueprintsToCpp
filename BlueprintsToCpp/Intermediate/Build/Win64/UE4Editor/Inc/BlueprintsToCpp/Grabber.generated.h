@@ -8,14 +8,23 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector;
 #ifdef BLUEPRINTSTOCPP_Grabber_generated_h
 #error "Grabber.generated.h already included, missing '#pragma once' in Grabber.h"
 #endif
 #define BLUEPRINTSTOCPP_Grabber_generated_h
 
 #define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_SPARSE_DATA
-#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_RPC_WRAPPERS
-#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetMaxGrabLocation);
+
+
+#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetMaxGrabLocation);
+
+
 #define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUGrabber(); \

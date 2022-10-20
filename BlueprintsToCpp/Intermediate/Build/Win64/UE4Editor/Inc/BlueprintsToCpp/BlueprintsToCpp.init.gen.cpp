@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintsToCpp_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x19795DFD,
+				0x0DEA0713,
 				0x4789D703,
 				METADATA_PARAMS(nullptr, 0)
 			};

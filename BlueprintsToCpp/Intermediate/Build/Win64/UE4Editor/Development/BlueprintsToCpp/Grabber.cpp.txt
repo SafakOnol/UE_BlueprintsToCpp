@@ -1,3 +1,6 @@
 C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\Definitions.BlueprintsToCpp.h
 C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Source\BlueprintsToCpp\Grabber.h
 C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintsToCpp\Grabber.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/Kismetmathlibrary.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl

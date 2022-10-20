@@ -20,6 +20,9 @@ protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
+	UFUNCTION(BlueprintCallable, BlueprintPure) //use BlueprintPure only if there's no execution node on the function
+	FVector GetMaxGrabLocation() const;
+
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
