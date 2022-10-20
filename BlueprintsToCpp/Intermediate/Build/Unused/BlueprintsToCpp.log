@@ -3,10 +3,10 @@
   Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 16 processes...
     [1/4] QuestManager.cpp
-    [2/4] UE4Editor-BlueprintsToCpp-0017.lib
-       Creating library C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\UE4Editor-BlueprintsToCpp-0017.lib and object C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\UE4Editor-BlueprintsToCpp-0017.exp
-    [3/4] UE4Editor-BlueprintsToCpp-0017.dll
-       Creating library C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\UE4Editor-BlueprintsToCpp-0017.suppressed.lib and object C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\UE4Editor-BlueprintsToCpp-0017.suppressed.exp
+    [2/4] UE4Editor-BlueprintsToCpp-0022.lib
+       Creating library C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\UE4Editor-BlueprintsToCpp-0022.lib and object C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\UE4Editor-BlueprintsToCpp-0022.exp
+    [3/4] UE4Editor-BlueprintsToCpp-0022.dll
+       Creating library C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\UE4Editor-BlueprintsToCpp-0022.suppressed.lib and object C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\UE4Editor-BlueprintsToCpp-0022.suppressed.exp
     [4/4] BlueprintsToCppEditor.target
-  Total time in Parallel executor: 3.49 seconds
-  Total execution time: 3.98 seconds
+  Total time in Parallel executor: 6.98 seconds
+  Total execution time: 7.49 seconds
