@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BlueprintsToCpp-7888.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\BlueprintsToCppEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\QuestManager.cpp.obj"
+"C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\BlueprintsToCpp.cpp.obj"
+"C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\Grabber.cpp.obj"
+"C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\BlueprintsToCpp.init.gen.cpp.obj"
+"C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\Grabber.gen.cpp.obj"
+"C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\QuestManager.gen.cpp.obj"
+"C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\Default.rc2.res"
+/OUT:"C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\UE4Editor-BlueprintsToCpp-7888.lib"

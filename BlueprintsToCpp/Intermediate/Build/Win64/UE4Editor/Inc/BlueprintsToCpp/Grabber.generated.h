@@ -58,7 +58,10 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UGrabber)
 
 
-#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_PRIVATE_PROPERTY_OFFSET
+#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__MaxGrabDistance() { return STRUCT_OFFSET(UGrabber, MaxGrabDistance); }
+
+
 #define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_10_PROLOG
 #define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
