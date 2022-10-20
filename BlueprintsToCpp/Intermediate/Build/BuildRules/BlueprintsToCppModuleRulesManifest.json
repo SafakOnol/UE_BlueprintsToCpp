@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\onols\\Documents\\GitHub\\UE_BlueprintsToCpp\\BlueprintsToCpp\\Source\\BlueprintsToCpp\\BlueprintsToCpp.Build.cs",
+		"C:\\Users\\onols\\Documents\\GitHub\\UE_BlueprintsToCpp\\BlueprintsToCpp\\Source\\BlueprintsToCpp.Target.cs",
+		"C:\\Users\\onols\\Documents\\GitHub\\UE_BlueprintsToCpp\\BlueprintsToCpp\\Source\\BlueprintsToCppEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

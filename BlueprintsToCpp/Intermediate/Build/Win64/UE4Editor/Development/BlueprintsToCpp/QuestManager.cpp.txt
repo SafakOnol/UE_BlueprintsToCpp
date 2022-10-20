@@ -1,0 +1,3 @@
+C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Development\BlueprintsToCpp\Definitions.BlueprintsToCpp.h
+C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Source\BlueprintsToCpp\Quests\QuestManager.h
+C:\Users\onols\Documents\GitHub\UE_BlueprintsToCpp\BlueprintsToCpp\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintsToCpp\QuestManager.generated.h

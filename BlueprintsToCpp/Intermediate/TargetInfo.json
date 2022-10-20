@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "BlueprintsToCpp",
+			"Path": "C:\\Users\\onols\\Documents\\GitHub\\UE_BlueprintsToCpp\\BlueprintsToCpp\\Source\\BlueprintsToCpp.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BlueprintsToCppEditor",
+			"Path": "C:\\Users\\onols\\Documents\\GitHub\\UE_BlueprintsToCpp\\BlueprintsToCpp\\Source\\BlueprintsToCppEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
