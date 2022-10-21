@@ -8,24 +8,29 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPhysicsHandleComponent;
 struct FVector;
 #ifdef BLUEPRINTSTOCPP_Grabber_generated_h
 #error "Grabber.generated.h already included, missing '#pragma once' in Grabber.h"
 #endif
 #define BLUEPRINTSTOCPP_Grabber_generated_h
 
-#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_SPARSE_DATA
-#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_RPC_WRAPPERS \
+#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_SPARSE_DATA
+#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetPhysicsComponent); \
+	DECLARE_FUNCTION(execGetHoldLocation); \
 	DECLARE_FUNCTION(execGetMaxGrabLocation);
 
 
-#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetPhysicsComponent); \
+	DECLARE_FUNCTION(execGetHoldLocation); \
 	DECLARE_FUNCTION(execGetMaxGrabLocation);
 
 
-#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_INCLASS_NO_PURE_DECLS \
+#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUGrabber(); \
 	friend struct Z_Construct_UClass_UGrabber_Statics; \
@@ -34,7 +39,7 @@ public: \
 	DECLARE_SERIALIZER(UGrabber)
 
 
-#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_INCLASS \
+#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesUGrabber(); \
 	friend struct Z_Construct_UClass_UGrabber_Statics; \
@@ -43,7 +48,7 @@ public: \
 	DECLARE_SERIALIZER(UGrabber)
 
 
-#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_STANDARD_CONSTRUCTORS \
+#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UGrabber(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGrabber) \
@@ -56,7 +61,7 @@ private: \
 public:
 
 
-#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_ENHANCED_CONSTRUCTORS \
+#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UGrabber(UGrabber&&); \
@@ -67,31 +72,32 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UGrabber)
 
 
-#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__MaxGrabDistance() { return STRUCT_OFFSET(UGrabber, MaxGrabDistance); }
+#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__MaxGrabDistance() { return STRUCT_OFFSET(UGrabber, MaxGrabDistance); } \
+	FORCEINLINE static uint32 __PPO__HoldDistance() { return STRUCT_OFFSET(UGrabber, HoldDistance); }
 
 
-#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_10_PROLOG
-#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_GENERATED_BODY_LEGACY \
+#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_11_PROLOG
+#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_PRIVATE_PROPERTY_OFFSET \
-	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_SPARSE_DATA \
-	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_RPC_WRAPPERS \
-	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_INCLASS \
-	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_STANDARD_CONSTRUCTORS \
+	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_PRIVATE_PROPERTY_OFFSET \
+	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_SPARSE_DATA \
+	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_RPC_WRAPPERS \
+	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_INCLASS \
+	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_GENERATED_BODY \
+#define BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_PRIVATE_PROPERTY_OFFSET \
-	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_SPARSE_DATA \
-	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_INCLASS_NO_PURE_DECLS \
-	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_13_ENHANCED_CONSTRUCTORS \
+	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_PRIVATE_PROPERTY_OFFSET \
+	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_SPARSE_DATA \
+	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_INCLASS_NO_PURE_DECLS \
+	BlueprintsToCpp_Source_BlueprintsToCpp_Grabber_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

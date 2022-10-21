@@ -4,6 +4,7 @@
 #include "Grabber.h"
 
 #include "Kismet/Kismetmathlibrary.h"
+#include "GameFramework/Actor.h"
 
 // Sets default values for this component's properties
 UGrabber::UGrabber()
@@ -27,7 +28,17 @@ void UGrabber::BeginPlay()
 
 FVector UGrabber::GetMaxGrabLocation() const
 {
-	return GetComponentLocation() + UKismetMathLibrary::GetForwardVector(GetComponentRotation()) * MaxGrabDistance;
+	return GetComponentLocation() + GetComponentRotation().Vector() * MaxGrabDistance;
+}
+
+FVector UGrabber::GetHoldLocation() const
+{
+	return GetComponentLocation() + GetComponentRotation().Vector() * HoldDistance;
+}
+
+UPhysicsHandleComponent* UGrabber::GetPhysicsComponent() const
+{
+	return GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();	
 }
 
 
